@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#encabezado {
+background-color: #026aa7;
+height: 40px;
+width: 100%;
+}
+h3{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.tab1{
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 170px;
+  height: 100px;
+background-color: #026aa7;
+display: inline-block;
+}
+.tab2{
+  background-color: grey;
+  margin-right: 900px;
+  margin-top: 10px;
+  width: 170px;
+  height: 100px;
+  float: right;
+
+}
