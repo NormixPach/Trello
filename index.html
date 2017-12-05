@@ -3,25 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Trello</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="icon" href="assets/images/brand.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/images/brand2.png">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   </head>
   <body>
-    <script src="app.js"></script>
-    <div id="encabezado">
-      <i class="devicon-trello-plain colored"></i>
-      <i class="devicon-trello-plain-wordmark"></i>
-    </div>
-    <h3>Tableros personales</h3>
-    <div class="tab1">
-      <p>Cómo utilizar Trello para <br/>Android</p>
-    </div>
-    <div class="tab2">
-      <p>Crear un tablero nuevo...</p>
+    <header>
+        <div class="tableros">
+          <img src="assets/images/brand.png" alt="Trello logo">
+          <p>Tableros</p>
+        </div>
+        <div class="buscador">
+          <img src="assets/images/search.png" alt="search icon">
+        </div>
+        <div class="profile">
+          <img src="assets/images/laboratoria-logo.png" alt="Laboratoria profile">
+        </div>
+        <div class="alert">
+          <img src="assets/images/alert.png" alt="alert icon">
+        </div>
+        <div class="info">
+          <img src="assets/images/info.png" alt="info icon">
+        </div>
+        <div class="add">
+          <img src="assets/images/add.png" alt="add icon">
+        </div>
+    </header>
 
-    </div>
+    <div id="contenedor">
+        <section>
+            <div class="lista">Añadir una lista</div>
+            <form class="formulario">
+                <input class="entrada" placeholder="Nombre de lista"><br>
+                <button class="boton">Guardar</button>
+            </form>
+        </section>
+     </div>
+
+
+    <script type="text/javascript" src="js/app.js"></script>
 
   </body>
 </html>
