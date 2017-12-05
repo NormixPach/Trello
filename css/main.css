@@ -1,35 +1,140 @@
-*{
+body{
   margin: 0;
   padding: 0;
-  border: 0;
+  background-color: #288ec0;
+  font-family: sans-serif;
 }
 
-#encabezado {
-background-color: #026aa7;
-height: 40px;
-width: 100%;
+/* Estilos para header */
+header{
+
+  width: 100%;
+  background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+  position: fixed;
+  background-color: #0067A3;
+  height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 0.4em;
 }
-h3{
-  margin-left: 70px;
-  margin-top: 20px;
-}
-.tab1{
-  color: #fff;
-  margin-left: 60px;
-  margin-top: 10px;
-  width: 300px;
-  height: 100px;
+
+.tableros {
+  float: left;
+  width: 9%;
+  height: 39px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #288ec0;
   border-radius: 5px;
-background-color: #026aa7;
-display: inline-block;
 }
-.tab2{
-  background-color: grey;
-  margin-right: 690px;
-  margin-top: 10px;
-  width: 300px;
-  height: 100px;
+
+header > .tableros > img {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+header > .tableros > p {
+  float: left;
+  color: white;
+  font-size: 15px;
+  margin-top:11px;
+  margin-left: 7px;
+}
+
+.buscador {
+  float: left;
+  width: 25%;
+  height: 39px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #288ec0;
   border-radius: 5px;
+}
+
+.buscador > img {
   float: right;
+  width: 25px;
+  height: 25px;
+  margin-top: 7px;
+  margin-right: 7px;
+}
 
+.profile > img {
+  float: right;
+  width: 39px;
+  height: 39px;
+  border-radius: 30px;
+  background-color: #288ec0;
+  margin-top: 6px;
+  margin-right: 18px;
+}
+
+.alert,
+.info,
+.add {
+  float: right;
+  width: 39px;
+  height: 39px;
+  border-radius: 30px;
+  background-color: #288ec0;
+  margin-top: 6px;
+  margin-right: 18px;
+}
+
+.alert > img,
+.info > img,
+.add > img {
+  width: 28px;
+  height: 28px;
+  margin-top: 6px;
+}
+
+/* Estilo para contenedor */
+#contenedor{
+    white-space: nowrap;
+    padding-top: 60px;
+}
+
+.lista {
+    width: 17em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: #0067A3;
+    padding: 0.6em;
+    color: white;
+    border-radius: 5px;
+}
+
+.formulario {
+    width: 17em;
+    height: auto;
+    margin: 0.6em 0.5em;
+    padding: 0.3em;
+    background-color: #E2E4E6;
+    border-radius: 5px;
+}
+
+.entrada {
+    width: 94%;
+    margin: 0.3em 0.7em;
+    padding: 0.3em;
+    border-radius: 5px;
+    border: none;
+}
+
+.boton {
+    display: block;
+    padding: 0.5em 3em;
+    margin: 0.3em 0.7em;
+    background-color: #5BAE45;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
