@@ -138,3 +138,6 @@ header > .tableros > p {
     color: white;
     border-radius: 5px;
 }
+#form{
+  display: none;
+}
